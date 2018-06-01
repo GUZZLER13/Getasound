@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Getasound</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" media="screen" href="./css/style.css" />
+</head>
+
+<body>
+
+  <div class="container-fluid">
+    <img class="position-absolute logo" src="img/logo-Black-Getasound.png" />
+    <h1 class="text-center">Parlez-nous de votre cible</h1>
+  </div>
+
+  <div class="container">
+    <h2 class="first">Cible</h2>
+
+    <div class="row">
+      <div class="col-xs-12 position-relative">
+        <p class="text-center position-absolute b">B2B</p>
+        <img id="to-B2B" class="not-active" src="img/factory.png" alt="factory" />
+      </div>
+      <div class="col-xs-12 position-relative">
+        <p class="text-center position-absolute b">B2C</p>
+        <img id="to-B2C" class="not-active" src="img/factory.png" alt="factory" />
+      </div>
+    </div>
+
+    <div id="B2B">
+      <h2 class="second">B2B</h2>
+      <div class="row">
+        <div class="col-xs-12">
+          <p class="text-center">Entreprise</p>
+          <img class="img-second img-1" src="img/boy.png" alt="boy" />
+        </div>
+        <div class="col-xs-12">
+          <p class="text-center">Association</p>
+          <img class="img-second img-2" src="img/boy.png" alt="boy" />
+        </div>
+        <div class="col-xs-12">
+          <p class="text-center">Public</p>
+          <img class="img-second img-3" src="img/boy.png" alt="boy" />
+        </div>
+        <div class="col-xs-12">
+          <p class="text-center">Autres</p>
+          <img class="img-second img-4" src="img/boy.png" alt="boy" />
+        </div>
+      </div>
+    </div>
+
+    <div id="B2C">
+      <h2 class="second">B2C</h2>
+      <div class="row">
+        <div class="col-xs-12">
+          <p class="text-center">Homme</p>
+          <img class="img-second img-5" src="img/boy.png" alt="boy" />
+        </div>
+        <div class="col-xs-12">
+          <p class="text-center">Femme</p>
+          <img class="img-second img-6" src="img/boy.png" alt="boy" />
+        </div>
+        <div class="col-xs-12">
+          <p class="text-center">Autre</p>
+          <img class="img-second img-7" src="img/boy.png" alt="boy" />
+        </div>
+      </div>
+    </div>
+
+    <div id="form">
+      <h2 class="infos">Plus d'informations</h2>
+      <p id="compteur" class="text-right">123 mots</p>
+      <textarea class="form-control" rows="3.5" id="message" type="text" placeholder="Tapez votre texte ici…"></textarea>
+    </div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+  <script src="./js/main.js"></script>
+
+</body>
+
+</html>
